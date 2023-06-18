@@ -52,7 +52,9 @@ body {
   border-radius: 8px;
   height: 46px;
 }
-
+.login a {
+  text-decoration: none;
+}
 /* Lower Section of Navigation Start */
 /* Lower Section of Navigation Start */
 .lowerNav {
