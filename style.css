@@ -204,6 +204,7 @@ main {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .subHeadingofcards {
   font-size: 15px;
@@ -279,14 +280,16 @@ main {
   font-weight: 600;
   text-align: center;
 }
-.subHeadingProduct {
+.subHeadingProductForPC {
   font-size: 18px;
   line-height: 29px;
   color: rgb(117, 117, 117);
   padding: 0px 63px;
   text-align: center;
 }
-
+.subHeadingProductForM {
+  display: none;
+}
 /* Footer Section Start */
 /* Footer Section Start */
 /* Footer Section Start */
@@ -379,9 +382,13 @@ a {
 
 /* For Mobile */
 /* For Mobile */
-@media (max-width: 480px) {
+@media screen and (max-width:480px) {
+  
   /* Here Header Section Start */
   /* Here Header Section Start */
+*{
+  /* border: 1px solid black; */
+}
   header {
     display: flex;
     align-items: center;
@@ -459,7 +466,7 @@ a {
   }
 
   /* Hero 5 Section Start */
-  .hero5{
+  .hero5 {
     position: relative;
     top: 450px;
     margin-top: 0px;
@@ -475,9 +482,135 @@ a {
     align-items: center;
     justify-content: center;
     gap: 15px;
+    padding: 10px 5px;
+  }
+  #changing {
+    display: none;
   }
   .popularCard img {
     width: 300px;
     height: 40%;
+  }
+
+  /* Hero 8 Section Start */
+  .hero8 {
+    position: relative;
+    top: 450px;
+    margin-top: 0px;
+  }
+  .upperProduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .lowerProduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .subHeadingProductForPC {
+    display: none;
+  }
+  .subHeadingProductForM {
+    display: inline;
+    font-size: 15px;
+    line-height: 29px;
+    color: rgb(117, 117, 117);
+    text-align: center;
+  }
+
+  /* Here Footer Section Start */
+  footer {
+    position: relative;
+    top: 450px;
+    margin-top: 0px;
+    background-color: #1b2124;
+    color: white;
+    width: 100%;
+    height: 1000px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:75px 25px;
+  }
+  .firstColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 0px;
+  }
+
+  /* Edit the code from here... */
+  /* Edit the code from here... */
+  /* Edit the code from here... */
+  /* Edit the code from here... */
+  /* Edit the code from here... */
+  /* Edit the code from here... */
+  .footerLogo img {
+    margin-left: 0px;
+  }
+  .footerEmail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .footerContact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .footerSocialIcons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .secondColumn {
+    display: flex;
+    gap: 40px;
+  }
+  .firstFooterRow {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footerHeading {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .orangeLine {
+    color: #f7a654;
+    border: 1.5px solid #f7a654;
+    background-color: #f7a654;
+    width: 150px;
+  }
+  
+  .footerUtility {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footerUtility li {
+    cursor: pointer;
+    list-style: none;
+  }
+  .sliderutility {
+    margin-top: 68px;
+  }
+  .thirdColumn {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
   }
 }
