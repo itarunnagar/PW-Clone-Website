@@ -84,6 +84,7 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 .dropdown-content {
   display: none;
@@ -97,6 +98,7 @@ header {
   color: rgb(151, 146, 146);
   top: 7.3em;
   font-size: 16px;
+  cursor: pointer;
 }
 .dropdown-content div {
   display: flex;
@@ -108,6 +110,7 @@ header {
   display: block;
 }
 .more-dropdown-content {
+  cursor: pointer;
   display: none;
   background-color: rgb(251, 254, 255);
   position: absolute;
@@ -144,6 +147,7 @@ header {
 }
 .moreLower:hover .more-dropdown-content {
   display: block;
+  cursor: pointer;
 }
 /* Here Main Section or Hero Section Start */
 /* Here Main Section or Hero Section Start */
@@ -162,6 +166,7 @@ main {
 .secondImg {
   display: none;
 }
+/* Here Hero 2 Section Start */
 /* Here Hero 2 Section Start */
 .hero2 {
   margin-top: 50px;
@@ -467,11 +472,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 20px;
+    margin: 0px 25px;
   }
   .menuBar,
   .magnifyingGlass {
     display: block;
+    cursor: pointer;
   }
   .menuBar img,
   .magnifyingGlass img {
@@ -515,8 +521,7 @@ a {
 
   /* Hero 3 Section Start */
   .hero3 {
-    position: relative;
-    top: 500px;
+    margin-top: 500px;
   }
   .forLaptopImg {
     display: none;
@@ -527,9 +532,7 @@ a {
 
   /* Hero 4 Section Start */
   .hero4 {
-    position: relative;
-    top: 450px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .firstCard {
     width: 325px;
@@ -544,9 +547,7 @@ a {
 
   /* Hero 5 Section Start */
   .hero5 {
-    position: relative;
-    top: 450px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .subHeadingofcards {
     letter-spacing: 1px;
@@ -572,9 +573,7 @@ a {
 
   /* Hero 8 Section Start */
   .hero8 {
-    position: relative;
-    top: 450px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .upperProduct {
     display: flex;
@@ -603,9 +602,7 @@ a {
 
   /* Here Footer Section Start */
   footer {
-    position: relative;
-    top: 450px;
-    margin-top: 0px;
+    margin-top: 10px;
     background-color: #1b2124;
     color: white;
     width: 100%;
@@ -648,6 +645,7 @@ a {
   .menuBar,
   .magnifyingGlass {
     display: block;
+    cursor: pointer;
   }
   .menuBar img,
   .magnifyingGlass img {
@@ -691,8 +689,7 @@ a {
 
   /* Hero 3 Section Start */
   .hero3 {
-    position: relative;
-    top: 500px;
+    margin-top: 500px;
   }
   .forLaptopImg {
     display: none;
@@ -703,9 +700,7 @@ a {
 
   /* Hero 4 Section Start */
   .hero4 {
-    position: relative;
-    top: 450px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .firstCard,
   .secondCard {
@@ -717,9 +712,7 @@ a {
 
   /* Hero 5 Section Start */
   .hero5 {
-    position: relative;
-    top: 450px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .subHeadingofcards {
     letter-spacing: 1px;
@@ -745,9 +738,7 @@ a {
   }
   /* Hero 8 Section Start */
   .hero8 {
-    position: relative;
-    top: 450px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .upperProduct {
     display: flex;
@@ -776,9 +767,7 @@ a {
 
   /* Here Footer Section Start */
   footer {
-    position: relative;
-    top: 450px;
-    margin-top: 0px;
+    margin-top: 10px;
     background-color: #1b2124;
     color: white;
     width: 100%;
