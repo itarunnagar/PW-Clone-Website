@@ -21,6 +21,7 @@
 
     <!-- Font Awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
   </head>
   <body>
     <!-- Here Header Section Start -->
@@ -30,7 +31,7 @@
 
         <!-- Menu Bar -->
         <div class="menuBar">
-          <i class="fa-regular fa-bars-sort"></i>
+          <img src="./assets/forMobile/hamburger.svg">
         </div>
 
       
@@ -45,7 +46,7 @@
 
       <!-- Magnifying GLass -->
       <div class="magnifyingGlass">
-        <i class="fa-light fa-magnifying-glass"></i>
+        <img src="./assets/forMobile/search-icon.svg">
       </div>
 
         <!-- Search Bar -->
@@ -60,26 +61,68 @@
 
       <!-- Lower Section of Navigation Start -->
       <nav class="lowerNav">
-        <div class="course>lowerNav">Courses</div>
-        <div>PW Skills Labs</div>
-        <div>Job Portal</div>
-        <div>Expeirience Portal</div>
-        <div>Become an Affiliate</div>
-        <div>Hall of Fame</div>
-        <div>More</div>
+        <!-- DropDown Menu -->
+        <div class="courselowerNav">
+            <div class="drpbtn">
+              <div>Courses</div> <i class="fa-solid fa-angle-down"></i>
+
+              <div class="dropdown-content">
+                <div>Web Development  <i class="fa-solid fa-angle-right"></i></div>
+                <div>Data Science <i class="fa-solid fa-angle-right"></i></div>
+                <div>Data Analytics <i class="fa-solid fa-angle-right"></i></div>
+                <div>Java <i class="fa-solid fa-angle-right"></i></div>
+                <div>C++ <i class="fa-solid fa-angle-right"></i></div>
+                <div>Finance <i class="fa-solid fa-angle-right"></i></div>
+              </div>
+            </div>
+            
+          </div>
+        <div><a href="https://lab.pwskills.com/">Skills Labs</a> </div>
+        <div><a href="https://jobs.pwskills.com/">Job Portal</a></div>
+        <div><a href="https://experience.pwskills.com/">Expeirience Portal</a></div>
+        <div><a href="https://affiliate.pwskills.com/">Become an Affiliate</a></div>
+        <div><a href="https://halloffame.pwskills.com/">Hall of Fame</a></div>
+
+        <div >
+            <div class="moreLower">
+              <div>More</div> <i class="fa-solid fa-angle-down"></i>
+            
+              <div class="more-dropdown-content">
+                <!-- First Column -->
+                <div class="morefirstColumn">
+                  <div>About Us  </div>
+                  <div>FAQS</div>
+                  <div>Privacy <br>Policy </div>
+                </div>
+                
+  <!-- Second Column -->
+                <div class="moreSecondColumn">
+                  <div>Contact US </div>
+                  <div>Job Assistance </div>
+                  <div>Terms and <br>Conditions</div>
+                </div>
+               
+              </div>
+          </div>
       </nav>
     </header>
 
     <!-- Here Hero Section or Body Section Start -->
     <main>
       <!-- Hero Section 1 -->
-      <section class="hero1">
+      <div class="hero1">
         <!-- For Laptop -->
-        <img src="./assets/web.jpg" class="firstImg">
+
+        <img src="./assets/web.png" class="firstImg">
+        <!-- <img src="./assets/web (1).jpg" class="firstImg">
+        <img src="./assets/2.jpg" class="firstImg"> -->
+        
+      
+       
 
         <!-- For Mobile -->
         <img src="./assets/forMobile/mobile.jpg" class="secondImg">
-      </section>
+      </div>
 
       <!-- Hero Section 2 -->
       <section class="hero2">
@@ -195,7 +238,7 @@
 
 
        <!-- Second Card -->
-       <div class="popularCard" id="changing">
+       <div class="popularCard" id="changingSecond">
         <img src="./assets/Popular Programe/64207ec8af09d6d106565a06 (1).jpg">
 
         <h1>Data Science Master</h1>
@@ -205,7 +248,7 @@
       </div>
 
        <!-- Third Card -->
-       <div class="popularCard" id="changing">
+       <div class="popularCard" id="changingThird">
         <img src="./assets/Popular Programe/64216620af09d6f5fb568f80.jpg">
 
         <h1>Java With DSA</h1>
@@ -269,7 +312,7 @@
 
 
      <!-- Second Card -->
-     <div class="popularCard" id="changing">
+     <div class="popularCard" id="changingSecond">
       <img src="./assets/Popular Programe/646304066977ccbd5eddf8c5.jpg">
 
       <h1>OOPS Concepts</h1>
@@ -279,7 +322,7 @@
     </div>
 
      <!-- Third Card -->
-     <div class="popularCard" id="changing">
+     <div class="popularCard" id="changingThird">
       <img src="./assets/Popular Programe/63f6f3b4a9d3a25d2eb43ba3.jpg">
 
       <h1>Stock Market Foundations</h1>
