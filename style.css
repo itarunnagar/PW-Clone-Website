@@ -461,7 +461,7 @@ a {
   header {
     margin: 0px;
     height: 4rem;
-    width: 99vw;
+    width: 98vw;
     position: fixed;
     top: 0px;
     background-color: white;
@@ -503,13 +503,14 @@ a {
   }
   .secondImg {
     display: block;
-    width: 100%;
+    width: 98%;
     height: 100%;
+    margin-top: 40px;
   }
   /* Hero 2 Section Start */
   .hero2Heading {
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
     width: 100%;
     text-align: center;
     color: #5a4bda;
@@ -518,19 +519,19 @@ a {
   .specs {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    margin-top: 50px;
+    gap: 5 0px;
   }
   .specsSection h1 {
-    font-size: 33px;
+    font-size: 30px;
+    font-weight: 600;
   }
   .specsSection h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
   /* Hero 3 Section Start */
   .hero3 {
     height: 300px;
-    margin-top: 550px;
+    margin-top: 525px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -548,7 +549,7 @@ a {
     margin-top: 10px;
   }
   .firstCard {
-    width: 325px;
+    width: 75%;
     background: white;
   }
   .secondCard {
@@ -566,19 +567,17 @@ a {
     letter-spacing: 1px;
   }
   .popularCard {
-    width: 325px;
+    width: 75%;
     background: white;
-    padding: 10px 20px;
   }
   #changingSecond,
   #changingThird {
     display: none;
   }
   .popularCard img {
-    width: 300px;
+    width: 90%;
     height: 40%;
   }
-
   /* Hero 8 Section Start */
   .hero8 {
     margin-top: 10px;
@@ -620,7 +619,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0px 50px;
+    padding: 0px 25px;
     padding-top: 65px;
   }
   .firstColumn {
@@ -640,7 +639,7 @@ a {
   header {
     margin: 0px;
     height: 5rem;
-    width: 100vw;
+    width: 98vw;
     position: fixed;
     top: 0px;
     background-color: white;
@@ -679,7 +678,7 @@ a {
   }
   .secondImg {
     display: block;
-    width: 100%;
+    width: 98%;
     height: 100%;
   }
   /* Hero 2 Section Start */
@@ -700,8 +699,8 @@ a {
   }
   /* Hero 3 Section Start */
   .hero3 {
-    margin-top: 500px;
-    height: 300px;
+    margin-top: 525px;
+    height: 400px;
   }
   .forLaptopImg {
     display: none;
@@ -716,7 +715,7 @@ a {
   }
   .firstCard,
   .secondCard {
-    width: 325px;
+    width: 40%;
   }
   .thirdCard {
     display: none;
@@ -730,13 +729,12 @@ a {
     letter-spacing: 1px;
   }
   .popularCard {
-    width: 325px;
+    width: 37%;
     background: white;
-    padding: 10px 20px;
   }
 
   .popularCard img {
-    width: 300px;
+    width: 95%;
     height: 40%;
   }
 
@@ -784,7 +782,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0px 50px;
+    padding: 0px 25px;
     padding-top: 65px;
   }
 }
